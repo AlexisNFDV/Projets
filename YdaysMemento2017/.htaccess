@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteCond %{REQUEST_URI} !/s
+RewriteRule ^(.*)$ $1\.php 
+Options All -indexes
+ServerSignature Off
+<Files ~ "^.*\.([Hh][Tt][AaPp])">
+order allow,deny
+deny from all
+satisfy all
+</Files>
+ErrorDocument 403 /error_pages/403.php
+ErrorDocument 404 /error_pages/404.php
+ErrorDocument 500 /error_pages/500.php

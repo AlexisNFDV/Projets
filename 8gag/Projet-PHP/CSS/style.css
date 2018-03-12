@@ -1,0 +1,44 @@
+body{
+    background-image:url(../Image/background.png);
+    background-repeat: repeat;
+}
+
+html, body {
+    height: 100%;
+    margin: 0; padding: 0;
+}
+body {
+    display : table;
+    width: 100%;
+}
+footer {
+    display : table-row;
+    height: 100px; /* à titre d'exemple */
+}
+
+#tyu{
+    font-family: 'Orbitron', cursive;
+}
+
+.ent{
+    font-family: 'Orbitron', cursive;
+    font-size: 400%;
+    margin-bottom: 6%;
+}
+
+.img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.mar{
+    margin-top: 0px;
+}
+
+.yolo{
+    margin-top: 10px;
+}
+
+.swag{
+    margin-top: 240px;
+}
