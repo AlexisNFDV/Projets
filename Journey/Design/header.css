@@ -1,0 +1,116 @@
+body
+{
+	width: 100%;
+	height: auto !important;
+	margin: 0 auto;
+}
+
+.pushable>.pusher>.ui.basic.segment.fond {
+	background-image: url(../Images/hearty.jpg);
+	background-size: cover ;
+	background-attachment: fixed ;
+	background-position: center center ;
+}
+
+.pushable>.pusher>.ui.basic.segment.budget {
+	background-image: url(../Images/ravenna.png);
+	background-size: cover ;
+	background-attachment: fixed ;
+	background-position: center center ;
+}
+
+.pushable>.pusher>.ui.basic.segment.air {
+	background-image: url(../Images/plane.jpg);
+	background-size: cover ;
+	background-attachment: fixed ;
+	background-position: center center ;
+}
+
+.pushable>.pusher>.ui.basic.segment.tchou {
+	background-image: url(../Images/bridge.jpg);
+	background-size: cover ;
+	background-attachment: fixed ;
+	background-position: center center ;
+}
+
+.pushable>.pusher>.ui.basic.segment.suitcase {
+	background-image: url(../Images/suitcase.jpg);
+	background-size: cover ;
+	background-attachment: fixed ;
+	background-position: center center ;
+}
+
+.pushable>.pusher>.ui.basic.segment.plane {
+	background-image: url(../Images/747.jpg);
+	background-size: cover ;
+	background-attachment: fixed ;
+	background-position: center center ;
+}
+
+.pushable>.pusher>.ui.basic.segment.car {
+	background-image: url(../Images/audi-2435946_960_720.jpg);
+	background-size: cover ;
+	background-attachment: fixed ;
+	background-position: center center ;
+}
+
+.pushable>.pusher>.ui.basic.segment{
+	padding-left : 0 !important;
+	padding-right: 0 !important;
+}
+
+.pushable>.pusher>.ui.basic.segment.blanc{
+	background-color: white !important;
+	background-image: none !important;
+}
+
+.ui.bottom.attached.pushable.segment
+{
+	margin-bottom: 0 !important;
+}
+
+.ui.styled.accordion, #accordion
+{
+	background: #87CEFA;
+	color: #fff;
+	font-weight: 400;
+	text-align: left;
+	box-shadow: 0px 1px 2px 0 rgba(255, 255, 255, 0.02), 0px 0px 0px 1px rgba(255, 255, 255, 0.02); 
+	-webkit-box-shadow: 0px 1px 2px 0 rgba(255, 255, 255, 0.02), 0px 0px 0px 1px rgba(255, 255, 255, 0.02);
+}
+
+#accordion2
+{
+	padding-left: 10px;
+	background: #87CEFA;
+	color: #fff;
+	padding-right: 30px !important;
+}
+
+.ui.vertical.icon.menu .item>.icon:not(.dropdown)
+{
+	float: right;
+}
+
+#avion
+{
+	float: right;
+	font-size: 1.71428571em!important; 
+}
+
+#onglets
+{
+	margin: 0px 273px 1px 0px;
+}
+
+#connexion
+{
+	position: absolute;
+	right: 0;
+}
+
+.medium.ui.vertical.animated.fade.button
+{
+	margin-right: 10px;
+	margin-top: 2px;
+}

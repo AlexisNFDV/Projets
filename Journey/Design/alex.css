@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*Accueil*/
+
+.ui.button {
+    color: white;
+    background-color: #87CEFA;
+}
+
+.ui.button:hover {
+    color: white;
+    background-color: deepskyblue;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Nunito', sans-serif;
+}
+
+#demarrer {
+    margin: 20px;
+}
+
+#center_menu {
+    text-align: center;
+}
+
+#accueil {
+    background-color: rgba(255,255,255,0.95);
+    padding: 30px;
+    margin: 20px 100px;
+    /*margin-top: 50vh;
+    transform: translateY(-50%);*/
+    border-radius: 5px;
+}
+
+.price_pack {
+    color: #C0C0C0;
+}
+
+#contact_index {
+    text-align: justify;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+#aprop {
+    padding: 30px;
+    margin: 20px 100px;
+    border-radius: 5px;
+}
+
+.logo_rs {
+    height: 54px;
+    width: 54px;
+}
+
+.links {
+    color: deepskyblue;
+}
+
+.links:hover {
+    color: #87CEFA;    
+}
+
+/*Compagnies*/
+
+#select {
+    min-height: 100vh;
+    text-align: center;
+}
+
+#airlines_body {
+    background: url(../Images/747.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: justify;
+}
+
+#selection {
+    background-color: rgba(255,255,255,0.95);
+    border-radius: 5px;
+    padding: 70px 30px;
+    margin: 60px 150px 0 150px;
+}
+
+.comp {
+    width: 30%;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.ui.raised.segment {
+    padding: 60px;
+    background-color: white;
+    opacity: 0.95;
+}
+
+a.remonter {
+    position: fixed;
+    bottom: 20px;
+    left: 40px;
+    border: solid white 1px;
+    padding: 5px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.logo_compagnies {
+    width: 50%;
+    height: auto;
+}
+
+/*Transport*/
+
+#transp {
+    margin: 45px 50px 0 50px;
+    padding: 30px;
+    background: white;
+    opacity: 0.95;
+    border-radius: 5px;
+}
+
+div.annonces {
+    border: solid gray 1px;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.ligne_comp {
+    margin: 7px 0;
+}
+
+div.buton {
+    margin-top: 10px;
+}
+
+#fondblanc {
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.95;
+    padding: 30px 0;
+}
+
+.price.trans {
+    background-color: transparent;
+    border: none;
+}
+
+/*Footer*/
+
+footer {
+    background-color: rgba(255,255,255,0.9);
+    margin-top: 100px;
+}
+
+#part2 {
+    text-align: right;
+    display: inline-flex;
+    align-items: center;
+}
+
+#logos {
+    margin-left: 100px;
+}

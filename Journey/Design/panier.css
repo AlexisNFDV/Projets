@@ -1,0 +1,21 @@
+.ui.card
+{
+	width: 100%;
+	box-shadow: 0 1px 20px 0 #d4d4d5, 0 0 0 1px #d4d4d5 !important;
+	min-height: 243.150px;
+}
+
+.ui.vertical.animated.inverted.red.button
+{
+	width: 30%;
+	left: 35%;
+}
+
+#validation
+{
+	margin-top: 50px; 
+	width: 30% !important; 
+	left: 35%; 
+	background-color: green; 
+	color: white;
+}
